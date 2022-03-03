@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    >
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/image_view"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_camera"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_first_name"
+        android:background="@drawable/edittext_rounded"
+        android:hint="Enter Your First Name"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_last_name"
+        android:background="@drawable/edittext_rounded"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        android:hint="Enter Your Last Name"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_contact_number"
+        android:background="@drawable/edittext_rounded"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        android:hint="Enter Your Contact Number"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_contact_email"
+        android:background="@drawable/edittext_rounded"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        android:hint="Enter Your Email"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_contact_address"
+        android:background="@drawable/edittext_rounded"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        android:hint="Enter Your address"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+
+    >
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_rounded"
+        android:id="@+id/btn_cancel_contact"
+        android:text="Cancel"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_rounded"
+        android:id="@+id/btn_create_profile"
+       android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:text="Create Profile"
+
+
+        android:layout_marginTop="10dp"
+        />
+</LinearLayout>
+
+</LinearLayout>
